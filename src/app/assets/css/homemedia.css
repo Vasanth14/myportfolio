@@ -18,13 +18,14 @@
 
 @media (max-width: 1000px) {
   .timeline {
-      width: 100%;
-      max-width: 400px;
+    width: 100%;
+    max-width: 400px;
   }
+
   .timeline ul li {
     padding: 12px 28px;
     margin: 50px 0px 50px 12px;
-}
+  }
 }
 
 @media (max-width: 1250px) {
@@ -248,9 +249,10 @@
   .headbg .navbar-nav a {
     margin: 0px 2px;
   }
-    .producttitle {
-      font-size: 38px;
-    }
+
+  .producttitle {
+    font-size: 38px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -366,15 +368,19 @@
   .whatweoffer .container .mt-5 {
     margin-top: 1rem !important;
   }
+
   .devdiv {
     right: 16%;
   }
+
   .greetdiv {
     left: 16%;
   }
+
   .greetimg {
     max-width: 188px;
   }
+
   .homecolleft .d-flex.gap-3.mt-3 {
     justify-content: center;
   }
@@ -403,11 +409,13 @@
   .hmsprod .row:nth-child(3)>div:last-child {
     text-align: center;
   }
-  .hmsprod  .row {
+
+  .hmsprod .row {
     margin-top: 20px;
     padding: 16px;
   }
-  .hmsprod  .row img {
+
+  .hmsprod .row img {
     margin-bottom: 16px;
   }
 }
@@ -493,31 +501,42 @@
     font-size: 28px;
     line-height: 36px;
   }
+
   .producttitle {
     font-size: 32px;
     line-height: 50px;
-    }
-    .timeline {
-      width: 100%;
-      padding: 40px 0px 0px 0px;
   }
+
+  .timeline {
+    width: 100%;
+    padding: 40px 0px 0px 0px;
+  }
+
   .timeline:before {
     left: 14px;
-}
-.timeline ul li {
-  top: -18px;
-  left: 16px;
-}
-.timeline ul li {
-  width: 100%;
-  text-align: left;
-  padding: 12px 28px;
-}
-.timeline ul li .time {
-  top: -40px;
-  left: 30px;
-  right: inherit;
-}
+  }
+
+  .timeline ul li {
+    top: -18px;
+    left: 16px;
+  }
+
+  .timeline ul li {
+    width: 100%;
+    text-align: left;
+    padding: 12px 28px;
+    max-width: 340px;
+  }
+
+  .timeline ul li .time {
+    top: -40px;
+    left: 30px;
+    right: inherit;
+  }
+
+  .skillsicons img {
+    max-width: 24px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -556,7 +575,7 @@
 
   .greetimg {
     max-width: 134px;
-}
+  }
 }
 
 @media (max-width: 600px) {
@@ -597,7 +616,6 @@
 
   .sitebtn {
     font-size: 16px !important;
-    padding: 0px 12px !important;
   }
 
   .aboutuusection {
@@ -625,15 +643,18 @@
     width: 340px;
     height: 340px;
   }
+
   .producttitle {
     font-size: 28px;
-    }
-    .devdiv {
-      right: 12%;
-    }
-    .greetdiv {
-      left: 12%;
-    }
+  }
+
+  .devdiv {
+    right: 12%;
+  }
+
+  .greetdiv {
+    left: 12%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -683,10 +704,11 @@
     font-size: 22px;
     line-height: 34px;
   }
+
   .producttitle {
     font-size: 24px;
     line-height: 44px;
-}
+  }
 }
 
 @media (max-width: 400px) {

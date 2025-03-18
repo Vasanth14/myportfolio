@@ -57,7 +57,7 @@ const Home = () => {
                                 <Image src={`${process.env.PUBLIC_URL}/assets/images/react.svg`} className="" />
                             </div>
                             <div className="skillsicons jsskill">
-                                <Image src={`${process.env.PUBLIC_URL}/assets/images/javascript.svg`} className="" />
+                                <Image src={`${process.env.PUBLIC_URL}/assets/images/js.svg`} className="" />
                             </div>
                             <div className="skillsicons nodeskill">
                                 <Image src={`${process.env.PUBLIC_URL}/assets/images/node.svg`} className="" />
@@ -65,13 +65,13 @@ const Home = () => {
                             <div className="skillsicons nextskill">
                                 <Image src={`${process.env.PUBLIC_URL}/assets/images/nextjs.svg`} className="" />
                             </div>
-                            <Image src={`${process.env.PUBLIC_URL}/assets/images/vasa.svg`} className="bannerimg" alt="bannerimg" />
+                            <Image src={`${process.env.PUBLIC_URL}/assets/images/vasa.png`} className="bannerimg" alt="bannerimg" />
                         </Col>
                     </Row>
                 </Container>
             </section>
 
-            <section className="whychoose" id="whychoose" data-aos="fade-up">
+            <section className="whychoose" id="projects" data-aos="fade-up">
                 <Container>
                     <div className="whychoosesect my-3">
                         <h2 className="sech2 text-center">I've been building a lot of things</h2>
@@ -81,6 +81,13 @@ const Home = () => {
                     </div>
 
                     <div className="projectflex">
+                        <div className="projectflexcont text-center">
+                            <span className="projimgbg">
+                                <Image src={`${process.env.PUBLIC_URL}/assets/images/tales.png`} alt="projects" className="projectimg" />
+                            </span>
+                            <h6 className="h6 mt-3">AI Kid's Tales</h6>
+                            <Link className="sitebtn btn-sm mt-2" to="https://tales.landingfast.com/" target="_blank">Live Site</Link>
+                        </div>
                         <div className="projectflexcont text-center">
                             <span className="projimgbg">
                                 <Image src={`${process.env.PUBLIC_URL}/assets/images/zummy.png`} alt="projects" className="projectimg" />
@@ -114,7 +121,7 @@ const Home = () => {
                                 <Image src={`${process.env.PUBLIC_URL}/assets/images/healthon.png`} alt="projects" className="projectimg" />
                             </span>
                             <h6 className="h6 mt-3">Hospital Management System</h6>
-                            <Link className="btn-sm sitebtn mt-2" to="https://healthon.1techspot.com" target="_blank">Live Site</Link>
+                            <Link className="btn-sm sitebtn mt-2" to="https://healthon.netlify.app/dashboard" target="_blank">Live Site</Link>
                         </div>
                         <div className="projectflexcont text-center">
                             <span className="projimgbg">
@@ -161,25 +168,25 @@ const Home = () => {
 
             <section className="whychoose expsec" id="contact" data-aos="fade-up">
                 <Container>
-                <div className="whychoosesect my-3">
-                    <h2 className="sech2 text-center">Connect with me!</h2>
-                    <p className="text-center content">
-                        Looking to collaborate or discuss an opportunity?
-                        Connect with me, and let's create something amazing together!
-                    </p>
-                </div>
-                <div className="d-flex justify-content-center gap-3">
-                    <Link target="_blank" to="http://github.com/vasanth14/" className="btn sitebtn">Github</Link>
-                    <Link target="_blank" to="https://www.linkedin.com/in/vasanth-chandrasekar/" className="btn sitebtn">Linkedin</Link>
-                    <Button
-                        className="btn sitebtn"
-                        id="button-addon2"
-                        href={`${process.env.PUBLIC_URL}/assets/vasanth.pdf`}
-                        download="Vasanth_Resume.pdf"
-                    >
-                        Download Resume
-                    </Button>
-                </div>
+                    <div className="whychoosesect my-3">
+                        <h2 className="sech2 text-center">Connect with me!</h2>
+                        <p className="text-center content">
+                            Looking to collaborate or discuss an opportunity?
+                            Connect with me, and let's create something amazing together!
+                        </p>
+                    </div>
+                    <div className="d-flex justify-content-center gap-3">
+                        <Link target="_blank" to="http://github.com/vasanth14/" className="btn sitebtn">Github</Link>
+                        <Link target="_blank" to="https://www.linkedin.com/in/vasanth-chandrasekar/" className="btn sitebtn">Linkedin</Link>
+                        <Button
+                            className="btn sitebtn"
+                            id="button-addon2"
+                            href={`${process.env.PUBLIC_URL}/assets/vasanth.pdf`}
+                            download="Vasanth_Resume.pdf"
+                        >
+                            Download Resume
+                        </Button>
+                    </div>
                 </Container>
             </section>
 

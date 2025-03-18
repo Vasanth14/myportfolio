@@ -1450,9 +1450,9 @@ section {
   height: 24px;
   top: 24px;
   left: -26px;
-  background: #f2f2f2;
+  background: linear-gradient(to bottom right, #ff03ff, #4d00ff);
   border-radius: 50%;
-  box-shadow: 0 0 0 3px #f2f2f2;
+  box-shadow: 0 0 0 3px #473647;
 }
 .timelinecontent {
   padding-bottom: 20px;
@@ -1495,8 +1495,21 @@ section {
   width: 2px;
   height: 100%;
   background: #16191D;
-  top: 16%;
+  top: 7%;
+}  
+.scrolled {
+  background-color: #f8f9fa; 
 }
+
+.navbar-scrolled {
+  background: rgb(47 47 47 / 20%); 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  transition: background-color 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 1400px) {

@@ -1,0 +1,120 @@
+[debug] [2025-03-18T03:18:53.090Z] ----------------------------------------------------------------------
+[debug] [2025-03-18T03:18:53.093Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-03-18T03:18:53.093Z] CLI Version:   13.34.0
+[debug] [2025-03-18T03:18:53.093Z] Platform:      win32
+[debug] [2025-03-18T03:18:53.093Z] Node Version:  v22.9.0
+[debug] [2025-03-18T03:18:53.094Z] Time:          Tue Mar 18 2025 08:48:53 GMT+0530 (India Standard Time)
+[debug] [2025-03-18T03:18:53.094Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-18T03:18:53.272Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-18T03:18:53.273Z] > authorizing via signed-in user (vasanth1997sep@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\myportfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-03-18T03:18:57.536Z] Using project from CLI flag: techspotui
+[debug] [2025-03-18T03:18:57.538Z] Checked if tokens are valid: false, expires at: 1731009585116
+[debug] [2025-03-18T03:18:57.538Z] Checked if tokens are valid: false, expires at: 1731009585116
+[debug] [2025-03-18T03:18:57.538Z] > refreshing access token with scopes: []
+[debug] [2025-03-18T03:18:57.541Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-03-18T03:18:57.541Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-03-18T03:18:57.825Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-03-18T03:18:57.825Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-03-18T03:18:57.873Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/techspotui [none]
+[debug] [2025-03-18T03:18:58.505Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/techspotui 403
+[debug] [2025-03-18T03:18:58.506Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/techspotui {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-03-18T03:18:58.507Z] Request to https://firebase.googleapis.com/v1beta1/projects/techspotui had HTTP Error: 403, The caller does not have permission
+[debug] [2025-03-18T03:18:58.658Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/techspotui had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\vasan\AppData\Roaming\nvm\v22.9.0\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\vasan\AppData\Roaming\nvm\v22.9.0\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project techspotui. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-03-18T03:19:10.653Z] ----------------------------------------------------------------------
+[debug] [2025-03-18T03:19:10.655Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-03-18T03:19:10.656Z] CLI Version:   13.34.0
+[debug] [2025-03-18T03:19:10.656Z] Platform:      win32
+[debug] [2025-03-18T03:19:10.656Z] Node Version:  v22.9.0
+[debug] [2025-03-18T03:19:10.656Z] Time:          Tue Mar 18 2025 08:49:10 GMT+0530 (India Standard Time)
+[debug] [2025-03-18T03:19:10.656Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-18T03:19:10.845Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-18T03:19:10.846Z] > authorizing via signed-in user (vasanth1997sep@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\myportfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-03-18T03:19:24.719Z] Using project from CLI flag: techspotui
+[debug] [2025-03-18T03:19:24.720Z] Checked if tokens are valid: true, expires at: 1742271536825
+[debug] [2025-03-18T03:19:24.721Z] Checked if tokens are valid: true, expires at: 1742271536825
+[debug] [2025-03-18T03:19:24.722Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/techspotui [none]
+[debug] [2025-03-18T03:19:25.218Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/techspotui 403
+[debug] [2025-03-18T03:19:25.218Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/techspotui {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-03-18T03:19:25.219Z] Request to https://firebase.googleapis.com/v1beta1/projects/techspotui had HTTP Error: 403, The caller does not have permission
+[debug] [2025-03-18T03:19:25.374Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/techspotui had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\vasan\AppData\Roaming\nvm\v22.9.0\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\vasan\AppData\Roaming\nvm\v22.9.0\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project techspotui. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-03-18T03:19:41.718Z] ----------------------------------------------------------------------
+[debug] [2025-03-18T03:19:41.721Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-03-18T03:19:41.721Z] CLI Version:   13.34.0
+[debug] [2025-03-18T03:19:41.722Z] Platform:      win32
+[debug] [2025-03-18T03:19:41.722Z] Node Version:  v22.9.0
+[debug] [2025-03-18T03:19:41.722Z] Time:          Tue Mar 18 2025 08:49:41 GMT+0530 (India Standard Time)
+[debug] [2025-03-18T03:19:41.722Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-18T03:19:41.905Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-18T03:19:41.906Z] > authorizing via signed-in user (vasanth1997sep@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\myportfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+

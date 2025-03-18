@@ -366,6 +366,18 @@
   .whatweoffer .container .mt-5 {
     margin-top: 1rem !important;
   }
+  .devdiv {
+    right: 16%;
+  }
+  .greetdiv {
+    left: 16%;
+  }
+  .greetimg {
+    max-width: 188px;
+  }
+  .homecolleft .d-flex.gap-3.mt-3 {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 840px) {
@@ -541,7 +553,10 @@
   .mgsoftimg {
     max-width: 240px;
   }
-  
+
+  .greetimg {
+    max-width: 134px;
+}
 }
 
 @media (max-width: 600px) {
@@ -612,6 +627,12 @@
   }
   .producttitle {
     font-size: 28px;
+    }
+    .devdiv {
+      right: 12%;
+    }
+    .greetdiv {
+      left: 12%;
     }
 }
 

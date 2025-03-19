@@ -384,6 +384,10 @@
   .homecolleft .d-flex.gap-3.mt-3 {
     justify-content: center;
   }
+  .headbg {
+    background-color: #000000 !important;
+    background-image: radial-gradient(at bottom right, #0c1e34 0%, #16191D00 65%) !important;
+  }
 }
 
 @media (max-width: 840px) {
@@ -536,6 +540,10 @@
 
   .skillsicons img {
     max-width: 24px;
+  }
+  .sitebtn {
+    line-height: 33px !important;
+    padding: 8px 18px !important;
   }
 }
 

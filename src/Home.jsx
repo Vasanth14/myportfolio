@@ -175,7 +175,7 @@ const Home = () => {
                             Connect with me, and let's create something amazing together!
                         </p>
                     </div>
-                    <div className="d-flex justify-content-center gap-3">
+                    <div className="d-flex flex-wrap justify-content-center gap-3">
                         <Link target="_blank" to="http://github.com/vasanth14/" className="btn sitebtn">Github</Link>
                         <Link target="_blank" to="https://www.linkedin.com/in/vasanth-chandrasekar/" className="btn sitebtn">Linkedin</Link>
                         <Button
